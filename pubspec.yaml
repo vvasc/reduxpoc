@@ -15,6 +15,7 @@ environment:
 dependencies:
   flutter_redux: ^0.5.2
   flutter_redux_dev_tools: "^0.3.0"
+  rxdart: "0.20.0"
   flutter:
     sdk: flutter
 
@@ -34,6 +35,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/logo.png
+    - assets/mock/token.json
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
