@@ -6,3 +6,8 @@ class LoginAction {
 class LoginError { }
 
 class ForgotPasswordAction { }
+
+class LoginSuccess {
+  final token;
+  LoginSuccess(this.token);
+}
